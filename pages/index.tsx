@@ -10,7 +10,7 @@ type FramerDemoContainerProps = {
 
 const FramerDemoContainer: FC<FramerDemoContainerProps> = ({ children }) => {
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center font-bold">
+    <div className="flex min-h-screen w-full flex-col items-center justify-center text-xl font-bold">
       {children}
     </div>
   );
